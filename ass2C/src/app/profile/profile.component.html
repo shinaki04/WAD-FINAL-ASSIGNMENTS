@@ -1,0 +1,27 @@
+<div class="profile-container">
+  <div class="profile-card">
+    <div class="profile-header">
+      <h2>User Profile</h2>
+    </div>
+    <div class="profile-content" *ngIf="username">
+      <div class="profile-info">
+        <div class="info-group">
+          <label>Username:</label>
+          <span>{{ username }}</span>
+        </div>
+        <div class="info-group">
+          <label>Full Name:</label>
+          <span>{{ name }}</span>
+        </div>
+      </div>
+      <div class="profile-actions">
+        <button class="btn-logout" (click)="logout()">Logout</button>
+      </div>
+    </div>
+    <div class="profile-content" *ngIf="!username">
+      <p>Please login to view your profile</p>
+      <a routerLink="/login" class="btn-login">Login</a>
+    </div>
+  </div>
+</div>
+  
