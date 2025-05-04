@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Company Info - jQuery Mobile</title>
+
+  <!-- jQuery Mobile CSS -->
+  <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- 🔗 Custom External CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- jQuery & jQuery Mobile JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://code.jquery.com/mobile/1.5.0-alpha.1/jquery.mobile-1.5.0-alpha.1.min.js"></script>
+
+  <!-- Custom jQuery -->
+  <script>
+    $(document).on("pagecreate", "#home", function () {
+      $(".fadein").hide().fadeIn(1000);
+    });
+  </script>
+</head>
+
+<body>
+
+  <div data-role="page" id="home">
+
+    <div data-role="header" data-theme="b">
+      <h1>🚀 Company Website</h1>
+    </div>
+
+    <div data-role="content" class="ui-content fadein">
+      <div class="card">
+        <h3>📊 Company Information Table</h3>
+
+        <table data-role="table" data-mode="reflow" class="ui-responsive table-stroke modern-table">
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Department</th>
+              <th>Domain</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Amazon Web Services</td>
+              <td>Cloud Services</td>
+              <td><a href="https://aws.amazon.com/" data-rel="external">aws.amazon.com</a></td>
+            </tr>
+            <tr>
+              <td>Altair</td>
+              <td>Software</td>
+              <td><a href="https://altair.com/" data-rel="external">altair.com</a></td>
+            </tr>
+            <tr>
+              <td>Google</td>
+              <td>AI Research</td>
+              <td><a href="https://ai.google/" data-rel="external">ai.google</a></td>
+            </tr>
+            <tr>
+              <td>Apple Inc.</td>
+              <td>Hardware & UX Design</td>
+              <td><a href="https://apple.com/" data-rel="external">apple.com</a></td>
+            </tr>
+            <tr>
+              <td>OpenAI</td>
+              <td>Artificial Intelligence</td>
+              <td><a href="https://openai.com/" data-rel="external">openai.com</a></td>
+            </tr>
+            <tr>
+              <td>Tesla</td>
+              <td>Autonomous Vehicles</td>
+              <td><a href="https://tesla.com/" data-rel="external">tesla.com</a></td>
+            </tr>
+          </tbody>
+</table>          
+
+        
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

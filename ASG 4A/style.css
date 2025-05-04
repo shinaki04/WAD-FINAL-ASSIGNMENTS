@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(135deg, #e0f2f1, #fce4ec);
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  font-size: 24px;
+}
+
+h3 {
+  color: #6a1b9a;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.ui-content {
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid #e0e0e0;
+}
+
+.modern-table th {
+  background-color: #6a1b9a;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+.modern-table td {
+  background-color: #f3e5f5;
+  color: #212121;
+  text-align: center;
+  padding: 10px;
+}
+
+a {
+  color: #1a237e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.custom-btn {
+  background-color: #8e24aa;
+  color: white !important;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.custom-btn:hover {
+  background-color: #6a1b9a;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.fadein {
+  display: none;
+}
