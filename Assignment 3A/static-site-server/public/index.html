@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Enhanced Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>This is a simple static website served with Node.js and Express. It demonstrates how to build a clean, mobile-friendly layout.</p>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I’m a web developer passionate about building fast and responsive websites. This demo shows a basic setup with Node.js backend and static HTML content.</p>
+  </section>
+
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li>Website Development</li>
+      <li>UI/UX Design</li>
+      <li>Frontend Mentorship</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form onsubmit="handleSubmit(event)">
+      <label>Name:<br><input type="text" required></label><br>
+      <label>Email:<br><input type="email" required></label><br>
+      <label>Message:<br><textarea required></textarea></label><br>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
